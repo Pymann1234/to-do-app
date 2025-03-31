@@ -1,5 +1,5 @@
-import { useState } from "react";
-import "./index.css";
+import { useState } from "react"; // React Hooks
+import "./index.css"; // Import css 
 
 const Todo = () => {
   const [task, settask] = useState([]);
